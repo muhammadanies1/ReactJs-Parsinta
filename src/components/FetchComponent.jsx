@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 
-function App() {
+function FetchComponent() {
   const [identifier, setIdentifier] = useState(1);
   const [user, setUser] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -74,4 +74,4 @@ function App() {
   )
 }
 
-export default App;
+export default FetchComponent;
